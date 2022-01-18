@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: seagreen;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            color: rgb(32, 97, 60);
+            padding: 10px;
+            margin: 10px;                    
+        }
+        nav{
+            background-color: rgb(32, 97, 60);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+           
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+                      
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 12px 0px ;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.5)        
+        }
+        article {
+            background-color: rgb(179, 255, 179);           
+            padding: 5px;           
+           
+        }
+        article > aside {
+            background-color: rgb(119, 201, 119);
+           
+        }
+        article > aside > p {
+            font-style: italic;
+            font-weight: bold;
+        }
+        footer {
+            background-color: rgb(32, 97, 60);
+            color: white;
+            text-align: center;
+            font-style: italic;
+            padding: 4px;
+            margin: 0px;
+           
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat esse commodi nihil eveniet libero eos a repellat magnam. Animi numquam officia temporibus quaerat nisi, modi tenetur ea. Ducimus, tenetur rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod impedit nulla amet ipsum consequatur maiores. Magni ducimus necessitatibus molestiae enim repellat animi modi voluptates sit commodi a, alias non suscipit.</p>
+                <aside>
+                    <p>Artigo escrito por Roberto Motta Junior</p>
+                </aside>
+            </article>
+            <article>
+            
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Roberto Motta Junior</p>
+    </footer>
+</body>
+</html>
