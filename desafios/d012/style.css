@@ -62,7 +62,7 @@ section > p {
 }
 
 section.normal {
-    background-color: white;
+    background-color: rgb(190, 238, 190);
     color: black;
 }
 
